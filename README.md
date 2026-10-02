@@ -110,7 +110,7 @@ I am building maintainable vision pipelines that connect **data preparation, mod
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=ahmadmasoodsahak&show_icons=true&include_all_commits=true&count_private=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&hide_border=true&bg_color=161B22&title_color=58A6FF&text_color=E6EDF3&icon_color=58A6FF&ring_color=58A6FF" alt="Ahmad's all-time public GitHub statistics" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=ahmadmasoodsahak&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=161B22&title_color=58A6FF&text_color=E6EDF3&icon_color=58A6FF&ring_color=58A6FF" alt="Ahmad's all-time public GitHub statistics" />
   <img width="49%" src="https://streak-stats.demolab.com?user=ahmadmasoodsahak&hide_border=true&background=161B22&stroke=30363D&ring=58A6FF&fire=388BFD&currStreakLabel=58A6FF&sideLabels=E6EDF3&currStreakNum=F0F6FC&sideNums=F0F6FC&dates=8B949E" alt="Ahmad's contribution streak" />
 </p>
 
