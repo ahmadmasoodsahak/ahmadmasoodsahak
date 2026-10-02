@@ -110,18 +110,20 @@ I am building maintainable vision pipelines that connect **data preparation, mod
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ahmadmasoodsahak&theme=github_dark" alt="Ahmad's GitHub statistics" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=ahmadmasoodsahak&show_icons=true&include_all_commits=true&count_private=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&hide_border=true&bg_color=161B22&title_color=58A6FF&text_color=E6EDF3&icon_color=58A6FF&ring_color=58A6FF" alt="Ahmad's all-time public GitHub statistics" />
   <img width="49%" src="https://streak-stats.demolab.com?user=ahmadmasoodsahak&hide_border=true&background=161B22&stroke=30363D&ring=58A6FF&fire=388BFD&currStreakLabel=58A6FF&sideLabels=E6EDF3&currStreakNum=F0F6FC&sideNums=F0F6FC&dates=8B949E" alt="Ahmad's contribution streak" />
 </p>
 
 <p align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ahmadmasoodsahak&theme=github_dark" alt="Top languages by repository" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ahmadmasoodsahak&theme=github_dark" alt="Top languages by commit" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ahmadmasoodsahak&theme=github_dark&title_color=58A6FF&text_color=E6EDF3&bg_color=161B22&border_color=30363D&icon_color=58A6FF&chart_color=58A6FF" alt="Top languages by repository" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ahmadmasoodsahak&theme=github_dark&title_color=58A6FF&text_color=E6EDF3&bg_color=161B22&border_color=30363D&icon_color=58A6FF&chart_color=58A6FF" alt="Top languages by commit" />
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ahmadmasoodsahak&theme=github_dark" width="100%" alt="GitHub profile details" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ahmadmasoodsahak&theme=github_dark&title_color=58A6FF&text_color=E6EDF3&bg_color=161B22&border_color=30363D&icon_color=58A6FF&chart_color=58A6FF" width="100%" alt="GitHub profile details" />
 </p>
+
+<p align="center"><sub>All-time where supported. Private organization activity may appear only as anonymized GitHub contributions unless the card generator is granted explicit repository access.</sub></p>
 
 ---
 
