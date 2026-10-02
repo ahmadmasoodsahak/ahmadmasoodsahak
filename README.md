@@ -107,16 +107,16 @@ I am building maintainable vision pipelines that connect **data preparation, mod
 
 ---
 
-## GitHub Stats
+## 📊 GitHub Stats
 
 <p align="center">
-  <img height="175" src="https://github-readme-stats.vercel.app/api?username=ahmadmasoodsahak&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=E6EDF3&icon_color=58A6FF" alt="Ahmad's GitHub statistics" />
-  <img height="175" src="https://streak-stats.demolab.com?user=ahmadmasoodsahak&hide_border=true&background=0D1117&ring=58A6FF&fire=1F6FEB&currStreakLabel=58A6FF&sideLabels=E6EDF3&currStreakNum=E6EDF3&sideNums=E6EDF3&dates=8B949E" alt="Ahmad's contribution streak" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ahmadmasoodsahak&theme=github_dark" alt="Ahmad's GitHub statistics" />
+  <img width="49%" src="https://streak-stats.demolab.com?user=ahmadmasoodsahak&hide_border=true&background=161B22&stroke=30363D&ring=58A6FF&fire=388BFD&currStreakLabel=58A6FF&sideLabels=E6EDF3&currStreakNum=F0F6FC&sideNums=F0F6FC&dates=8B949E" alt="Ahmad's contribution streak" />
 </p>
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ahmadmasoodsahak&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=E6EDF3" alt="Top languages" />
-  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ahmadmasoodsahak&theme=github_dark&utcOffset=3" alt="Productive time" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ahmadmasoodsahak&theme=github_dark" alt="Top languages by repository" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ahmadmasoodsahak&theme=github_dark" alt="Top languages by commit" />
 </p>
 
 <p align="center">
@@ -149,3 +149,4 @@ I am building maintainable vision pipelines that connect **data preparation, mod
   ·
   <a href="https://github.com/ahmadmasoodsahak">GitHub</a>
 </p>
+
