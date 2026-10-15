@@ -22,7 +22,6 @@
   <a href="https://github.com/ahmadmasoodsahak">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
-  <img src="https://komarev.com/ghpvc/?username=ahmadmasoodsahak&label=Profile+Views&color=1F6FEB&style=for-the-badge" alt="Profile views" />
 </p>
 
 ---
@@ -107,21 +106,23 @@ I am building maintainable vision pipelines that connect **data preparation, mod
 
 ---
 
-## GitHub Stats
+## 📊 GitHub Stats
 
 <p align="center">
-  <img height="175" src="https://github-readme-stats.vercel.app/api?username=ahmadmasoodsahak&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=E6EDF3&icon_color=58A6FF" alt="Ahmad's GitHub statistics" />
-  <img height="175" src="https://streak-stats.demolab.com?user=ahmadmasoodsahak&hide_border=true&background=0D1117&ring=58A6FF&fire=1F6FEB&currStreakLabel=58A6FF&sideLabels=E6EDF3&currStreakNum=E6EDF3&sideNums=E6EDF3&dates=8B949E" alt="Ahmad's contribution streak" />
+  <img width="49%" src="https://raw.githubusercontent.com/ahmadmasoodsahak/ahmadmasoodsahak/output/stats/3-stats.svg" alt="Ahmad's GitHub statistics" />
+  <img width="49%" src="https://raw.githubusercontent.com/ahmadmasoodsahak/ahmadmasoodsahak/output/stats/streak-card.svg" alt="Ahmad's contribution streak" />
 </p>
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ahmadmasoodsahak&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=E6EDF3" alt="Top languages" />
-  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ahmadmasoodsahak&theme=github_dark&utcOffset=3" alt="Productive time" />
+  <img width="49%" src="https://raw.githubusercontent.com/ahmadmasoodsahak/ahmadmasoodsahak/output/stats/1-repos-per-language.svg" alt="Top languages by repository" />
+  <img width="49%" src="https://raw.githubusercontent.com/ahmadmasoodsahak/ahmadmasoodsahak/output/stats/4-productive-time.svg" alt="Ahmad's productive coding hours" />
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ahmadmasoodsahak&theme=github_dark" width="100%" alt="GitHub profile details" />
+  <img src="https://raw.githubusercontent.com/ahmadmasoodsahak/ahmadmasoodsahak/output/stats/0-profile-details.svg" width="100%" alt="GitHub profile details" />
 </p>
+
+<p align="center"><sub>Generated daily as static SVG files. Public repositories are included automatically; private activity is included when the workflow has a read-only private-repository token.</sub></p>
 
 ---
 
@@ -129,9 +130,9 @@ I am building maintainable vision pipelines that connect **data preparation, mod
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ahmadmasoodsahak/ahmadmasoodsahak/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ahmadmasoodsahak/ahmadmasoodsahak/output/github-contribution-grid-snake.svg">
-    <img src="https://raw.githubusercontent.com/ahmadmasoodsahak/ahmadmasoodsahak/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Animated contribution snake" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ahmadmasoodsahak/ahmadmasoodsahak/output/github-contribution-grid-snake-dark.svg?v=2">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ahmadmasoodsahak/ahmadmasoodsahak/output/github-contribution-grid-snake.svg?v=2">
+    <img src="https://raw.githubusercontent.com/ahmadmasoodsahak/ahmadmasoodsahak/output/github-contribution-grid-snake-dark.svg?v=2" width="100%" alt="Animated contribution snake" />
   </picture>
 </p>
 
@@ -149,3 +150,4 @@ I am building maintainable vision pipelines that connect **data preparation, mod
   ·
   <a href="https://github.com/ahmadmasoodsahak">GitHub</a>
 </p>
+

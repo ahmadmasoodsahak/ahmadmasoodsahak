@@ -1,0 +1,77 @@
+name: Generate profile assets
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Restore the last valid published assets
+        uses: actions/checkout@v4
+        with:
+          ref: output
+          path: previous-output
+
+      - name: Seed the publication directory
+        run: |
+          mkdir -p dist
+          cp -R previous-output/. dist/
+
+      - name: Generate static GitHub statistics
+        uses: vn7n24fzkq/github-profile-summary-cards@c5807b007a99953f06e323a463723e52dd4aed9f
+        env:
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN || github.token }}
+        with:
+          USERNAME: ahmadmasoodsahak
+          UTC_OFFSET: 3
+          AUTO_PUSH: false
+          THEME: github_dark
+          NAME: Ahmad Masood Sahak
+
+      - name: Collect generated statistics
+        run: |
+          mkdir -p dist/stats
+          cp profile-summary-card-output/github_dark/*.svg dist/stats/
+
+      - name: Apply the profile blue palette
+        run: sed -i 's/#40c463/#58A6FF/g' dist/stats/4-productive-time.svg
+
+      - name: Refresh cards that require profile-level GraphQL data
+        run: python .github/scripts/fetch_stats_cards.py --username ahmadmasoodsahak --output-dir dist/stats
+
+      - name: Generate blue and graphite contribution snakes
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ahmadmasoodsahak
+          outputs: |
+            dist/github-contribution-grid-snake.svg?color_snake=%2324292F&color_dots=%23EBEDF0,%239CCBFF,%2358A6FF,%231F6FEB,%230D419D
+            dist/github-contribution-grid-snake-dark.svg?color_snake=%23F0F6FC&color_dots=%23161B22,%230D419D,%231158C7,%23388BFD,%2358A6FF
+
+      - name: Slow down the snake animation
+        run: python .github/scripts/slow_snake.py dist/github-contribution-grid-snake.svg dist/github-contribution-grid-snake-dark.svg --factor 2
+
+      - name: Publish generated assets without touching main history
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          build_dir: dist
+          target_branch: output
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
